@@ -1,1 +1,80 @@
-U1243010
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta n
+ame="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>记忆相册</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff6f61;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2em auto;
+      padding: 1em;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    .intro {
+      font-size: 1.2em;
+      line-height: 1.6;
+      color: #555;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1em;
+      margin-top: 2em;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>记忆相册</h1>
+    <p>一个属于你的私人照片分享空间</p>
+  </header>
+  <div class="container">
+    <h2>简介</h2>
+    <p class="intro">
+      这是一个简洁美观的照片分享网站，让用户可以轻松上传、分类和展示自己的摄影作品或生活照片。
+      无论是风景、人物、旅行日记，还是日常记录，这里都是一个属于你的私人相册，让回忆随时可见、轻松分享。
+    </p>
+
+    <h2>照片墙</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200" alt="照片1">
+      <img src="https://via.placeholder.com/300x200" alt="照片2">
+      <img src="https://via.placeholder.com/300x200" alt="照片3">
+      <img src="https://via.placeholder.com/300x200" alt="照片4">
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 记忆相册. 保留所有权利。
+  </footer>
+</body>
+</html>
